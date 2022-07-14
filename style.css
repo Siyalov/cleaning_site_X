@@ -31,9 +31,16 @@ a {
    border-radius: 14px;
    color: white;
    width: fit-content;
+   height: fit-content;
+
 }
 
 
+
+body {
+   color: var(--font-color);
+
+}
 
 .wrapper {
    max-width: 1220px;
@@ -85,5 +92,65 @@ header {
 
 .header__right {
    gap: 24px;
+
+}
+.welcome {
+   padding: 230px 0;
+   background: url("img/Group.jpg") no-repeat;
+   background-size: 35%;
+   background-position-x: right;
+}
+
+.welcome__title {
+   font-size: 68px;
+   line-height: 74px;
+   
+
+}
+
+.welcome__block {
+   max-width: 691px;
+   
+
+}
+
+.welcome__text {
+   font-size: 21px;
+   line-height: 30px;
+   color: #6E7191;
+   margin: 28px 0 ;
+
+}
+.welcome__buttons {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.welcome__phone {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+
+
+}
+
+.welcome__btn {
+   font-size: 18px;
+   padding: 18px 36px;
+
+
+}
+.welcome__phone_block h2 {
+   font-size: 30px;
+   
+
+}
+
+.welcome__phone_block p {
+   font-size: 16px;
+   text-transform: uppercase;
+   
 
 }
