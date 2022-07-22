@@ -15,14 +15,11 @@
 
 li {
    list-style: none;
-   
-
 }
 
 a {
    text-decoration: none;
    color: unset;
-
 }
 
 .btn {
@@ -32,7 +29,12 @@ a {
    color: white;
    width: fit-content;
    height: fit-content;
+   cursor: pointer;
+   transition: 0.4s;
+}
 
+.btn:hover{
+   background-color: #000084;
 }
 
 .btn__white {
@@ -41,6 +43,10 @@ a {
    border-radius: 14px;
    width: fit-content;
    height: fit-content;   
+}
+
+.btn__white:hover{
+   background-color: #fff5ee;
 }
 
 
