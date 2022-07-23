@@ -70,44 +70,35 @@ header {
 
 .header__block {
    justify-content: space-between;
-
-
 }
 
 
 
 .header__link {
    color: var(--font-color);
-
-
 }
+
 .header__left {
    gap: 40px;
-
 }
 
 .header__left, .header__nav, .header__block, .header__right {
    display: flex;
-   align-items: center;
-   
+   align-items: center;   
 }
 
 
 .header__nav {
    gap: 20px;
-
-
 }
 
 
 .header__btn {
-   padding: 18px 24px;
-   
+   padding: 18px 24px;   
 }
 
 .header__right {
    gap: 24px;
-
 }
 
 section {
@@ -117,50 +108,39 @@ section {
 .welcome {   
    background: url("img/Group.jpg") no-repeat;
    background-size: 40%;
-   background-position-x: right;
-   
+   background-position-x: right;   
 }
 
 .welcome__title {
    font-size: 68px;
-   line-height: 74px;
-   
-
+   line-height: 74px; 
 }
 
 .welcome__block {
    max-width: 691px;
-   
-
 }
 
 .welcome__text {
    font-size: 21px;
    line-height: 30px;
    color: #6E7191;
-   margin: 28px 0 ;
-
+   margin: 28px 0;
 }
 .welcome__buttons, .covid__buttons {
    display: flex;
    justify-content: space-between;
    align-items: center;
-
 }
 
 .welcome__phone, .covid__phone {
    display: flex;
    align-items: center;
    gap: 16px;
-
-
 }
 
-.welcome__btn, .covid__btn {
+.welcome__btn, .covid__btn, .cleaning__btn {
    font-size: 18px;
    padding: 18px 36px;
-
-
 }
 .welcome__phone_block h2, .covid__phone_block h2 {
    font-size: 30px;   
@@ -178,6 +158,7 @@ section {
    text-align: center;
    flex-direction: column;
 }
+
 .services  {   
    border-bottom: 1px solid  #DCDDEB;
 }
@@ -211,17 +192,20 @@ section {
    line-height: 30px;
    color: #6E7191;
 }
+
 .services__items {
    display: flex;
    justify-content: space-between;
    margin-top: 67px;
 }
+
 .services__buttons {
    display: flex;
    justify-content: center;
    gap: 28px;
    margin-top: 57px;
 }
+
 .services__buttons div {
   padding: 26px 38px;
 }
@@ -242,8 +226,6 @@ section {
    padding: 137px 74px;
    color: white;   
    background: url("img/covid.svg") no-repeat #211F54;
-   
-
 }
 
 .covid__content {
@@ -267,7 +249,47 @@ section {
    max-width: 474px;
    margin-bottom: 12px;
 }
-.covid__btn {
 
+.covid__btn {
    padding: 26px 38px;
 }
+
+.professional__services {
+   display: flex;   
+   text-align: center;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.professional__services h2 {
+   font-size: 48px;
+   line-height: 58px;
+   max-width: 474px;
+   text-align: left;
+}
+
+.cleaning__item {
+   margin-top: 62px;
+}
+
+.cleaning__btn {
+   margin: 28px 24px ;
+}
+
+.cleaning__services {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cleaning__services h3 {
+   margin-bottom: 16px;
+
+}
+.cleaning__item p {
+   font-size: 21px;
+   line-height: 30px;
+   color: #6E7191;
+}
+
+
