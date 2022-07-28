@@ -364,3 +364,27 @@ section {
    justify-content: space-between;
    align-items: center;
 }
+
+.different__content {
+   max-width: 496px;
+   display: flex;
+   flex-direction: column;
+   gap: 22px;
+}
+
+.different__content h2 {
+font-size: 48px;
+line-height: 58px;
+}
+
+.different__content p {
+   font-size: 18px;
+   line-height: 30px;
+   color: #6E7191;
+}
+
+.litle {
+
+   font-size: 12px;
+   line-height: 30px;
+}
