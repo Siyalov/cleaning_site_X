@@ -365,6 +365,12 @@ section {
    align-items: center;
 }
 
+.different__block {
+
+   display: flex;
+   justify-content: space-between;
+}
+
 .different__content {
    max-width: 496px;
    display: flex;
@@ -384,7 +390,38 @@ line-height: 58px;
 }
 
 .litle {
-
    font-size: 12px;
    line-height: 30px;
+}
+
+.articles__body {   
+   display: flex;
+   justify-content: space-between;  
+
+
+}
+
+.different_items {
+
+   display: flex;
+   gap: 58px;
+   
+}
+
+.different_item h2 {
+
+   font-size: 54px;
+   color: #211F54;
+}
+
+.different_item span {
+
+   font-weight: 400;
+   color: #0075FF;
+}
+
+.different_item h4 {
+
+   font-size: 18px;
+   color: #6E7191;
 }
