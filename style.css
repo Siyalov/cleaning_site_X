@@ -138,7 +138,7 @@ section {
    gap: 16px;
 }
 
-.welcome__btn, .covid__btn, .cleaning__btn {
+.welcome__btn, .covid__btn, .cleaning__btn, .quote__btn {
    font-size: 18px;
    padding: 18px 36px;
 }
@@ -419,11 +419,6 @@ section {
    color: #6E7191;
 }
 
-.article__block {
-
-
-}
-
 .articles__text {
    max-width: 447px;
 }
@@ -431,20 +426,18 @@ section {
 .articles__text h2 {
    font-size: 48px;
    margin-bottom: 5px;
-
 }
 
 .articles__text p {
-
    font-size: 21px;
    line-height: 30px;
    color: #6E7191;
 }
+
 .articles__header {
    display: flex;
    justify-content: space-between; 
    align-items: center;
-
 }
 
 .articles__buttons {
@@ -452,6 +445,7 @@ section {
    justify-content: center;
    gap: 28px;   
 }
+
 .body__text {
    padding: 50px;
    background-color: white;
@@ -459,14 +453,14 @@ section {
    border: 1px solid #EFF0F6;
    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
    border-radius: 24px;
-
 }
+
 .body__text h5{
    font-size: 24px;
-   line-height: 34px;
-   
+   line-height: 34px;   
    color: #211F54;
 }
+
 .body__text p {
    font-size: 21px;
    line-height: 30px;
@@ -474,16 +468,52 @@ section {
    margin-top: 17px;
    margin-bottom: 6px;
 }
+
 .body_text__wrapper {
    display: flex;
    justify-content: center;
    position: absolute;   
    width: 100%;
    top: calc(100% - 52px)
-
-
 }
 
 .body__right, .body__left {
    position: relative;
+}
+
+.quote__text_up h2{
+   font-size: 48px;
+   line-height: 58px;
+   color: #211F54;
+}
+
+.quote__text_up p{
+   font-size: 21px;
+   line-height: 30px;
+   color: #6E7191;
+   margin-top: 8px;
+   margin-bottom: 11px;
+}
+
+.quote__text_up {
+   max-width: 487px;
+}
+
+.quote__form {
+   padding: 85px 61px;
+   max-width: 673px;
+   background: #FFFFFF;
+   border: 1px solid #EFF0F6;
+   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+   border-radius: 16px;
+}
+
+.quote__block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.quote__form_registration {
+
+   
 }
