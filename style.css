@@ -481,6 +481,19 @@ section {
    position: relative;
 }
 
+.text_up_up {
+   padding-bottom: 51px;
+   border-bottom: 1px solid #DCDDEB ;
+}
+
+.quote__text_down {
+   margin-top: 55px;
+}
+
+.quote__text_down h4 {
+   font-size: 28px;
+}
+
 .quote__text_up h2{
    font-size: 48px;
    line-height: 58px;
@@ -511,9 +524,47 @@ section {
 .quote__block {
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 
-.quote__form_registration {
+.registration__block {
 
-   
+   display: flex;
+   gap: 32px;
+
+}
+
+.registration__block input, textarea  {
+   padding: 17px;
+   font-size: 18px;
+   border: 1px solid #EFF0F6;
+   box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+   border-radius: 16px;
+   resize: none;
+}
+
+.quote__form_registration h6 {
+   font-size: 18px;
+   color: #211F54;
+   font-weight: 400;
+   margin-bottom: 12px;
+
+}
+.quote__form_registration {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.registration__add, textarea{
+   width: 100%;   
+}
+
+textarea {
+
+   height: 144px;
+}
+button {
+   outline: none;
+   border: none;
 }
