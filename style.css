@@ -280,8 +280,6 @@ section {
   border: 1px solid #EFF0F6;
   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
   border-radius: 16px;
-
-
 }
 
 .cleaning__item img {
@@ -301,8 +299,8 @@ section {
 
 .cleaning__services h3 {
    margin-bottom: 16px;
-
 }
+
 .cleaning__item p {
    font-size: 21px;
    line-height: 30px;
@@ -310,12 +308,10 @@ section {
 }
 
 .call__image {
-
    transition: 0.5s transform;   
 }
 
 .call__image:hover {
-
    transform: scale(1.2);
 }
 
@@ -324,8 +320,8 @@ section {
    gap: 24px;
    display: flex;
    align-items: center;
-
 }
+
 .cover-area__item h5 {
    font-size: 18px   
 }
@@ -340,8 +336,7 @@ section {
 .cover-area__content p {
    font-size: 18px;
    line-height: 30px;
-   color: #6E7191;
-   
+   color: #6E7191;   
 }
 
 .cover-area__content h2 {
@@ -528,10 +523,8 @@ section {
 }
 
 .registration__block {
-
    display: flex;
    gap: 32px;
-
 }
 
 .registration__block input, textarea  {
@@ -561,10 +554,92 @@ section {
 }
 
 textarea {
-
    height: 144px;
 }
+
 button {
    outline: none;
    border: none;
+}
+
+.footer__container_up {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.footer__quality, .footer__contact, .footer__estimate{
+   max-width: 312px;
+}
+
+.footer__quality h3 {
+   font-size: 28px;
+   line-height: 36px;
+   color: #211F54;
+}
+
+.footer__quality p {
+   font-size: 18px;
+   line-height: 30px;
+   margin-top: 7px;
+   margin-bottom: 33px;   
+   color: #6E7191;
+}
+
+.footer__contact h6 {
+   font-size: 20px;
+   color: #211F54;
+}
+
+.footer__contact p {
+   font-size: 18px;
+   line-height: 30px;
+   color: #6E7191;
+   margin: 18px 0;
+}
+
+.footer__hours h6{
+   font-size: 20px;
+   line-height: 22px;      
+   color: #211F54;
+   margin-bottom: 18px;
+}
+
+.footer__hours p {
+   font-size: 18px;      
+   color: #6E7191;
+   margin: 8px 0;
+}
+
+.footer__estimate h6{
+   font-size: 20px;
+   color: #211F54;
+   margin-bottom: 28px;
+}
+
+.footer__estimate p{
+   font-size: 18px;
+   line-height: 30px;      
+   color: #6E7191;
+   margin-bottom: 18px;
+}
+
+.footer__estimate h3 {
+   font-weight: 700;
+   font-size: 28px;
+   color: #0075FF;
+   margin-bottom: 6px;
+}
+
+.footer__container_down {
+   padding: 35px 0;
+   border-top: 1px solid #a6a8b9;
+   margin-top: 116px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+footer .header__item a {
+   text-decoration: underline;
 }
