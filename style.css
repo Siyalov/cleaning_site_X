@@ -206,7 +206,7 @@ section {
    margin-top: 57px;
 }
 
-.services__buttons div, .articles__buttons div{
+.services__buttons a, .services__buttons div, .articles__buttons a, .articles__buttons div{
   padding: 20px 38px;
 }
 
